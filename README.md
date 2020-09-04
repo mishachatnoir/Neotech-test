@@ -16,7 +16,7 @@ CountLines.sh
 Name:   
     CountLines.sh - Count the number of lines in a text file  
 Usage  
-    `./CountLines.sh [PATH TO FILE]`  
+     
 Description  
     This scripts returns the number of lines in a text file to standart output.  
     Script only accepts absolute path to file, does not accept path to directories as argument and invalid path to a file.  
@@ -24,3 +24,4 @@ Description
 
 # Задание 3
 Произвольный скрипт, который упрощает ежедневную работу с терминалом или любая другая автоматизация
+`./CountLines.sh [PATH TO FILE]` 
