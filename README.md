@@ -17,7 +17,7 @@ NAME
        CountLines.sh - Count the number of lines in a text file
 
 SYNOPSIS  
-       cat [FILE]
+       ./CountLines.sh [FILE]
 
 DESCRIPTION  
        This scripts returns the number of lines in a text file to standart output.
