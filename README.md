@@ -11,16 +11,20 @@
 
 # Задание 2 
 Создать python or bash скрипт, который может считать линии в любом текстовом файле
+
 CountLines.sh
 
-Name:  
-    CountLines.sh - Count the number of lines in a text file  
-Usage  
-     
-Description  
-    This scripts returns the number of lines in a text file to standart output.  
-    Script only accepts absolute path to file, does not accept path to directories as argument and invalid path to a file.  
+Описание  
+Скрипт CountLines.sh возвращает количество строк в заданом текстовом файле в standart output
+Скрипт принимает только абсолютный путь к файлу, не принимает путь к дериктории или неправильный путь
+Использование:  
+```
+./CountLines.sh [PATH TO FILE]
+```
+Пример:
+```
 
+``` 
 
 # Задание 3  
 Произвольный скрипт, который упрощает ежедневную работу с терминалом или любая другая автоматизация   
