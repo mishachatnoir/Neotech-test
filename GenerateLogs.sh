@@ -1,9 +1,12 @@
 #!/bin/bash
-mkdir log
-touch -t log/2020040100.00 app_health.5
-touch -t log/2020050100.00 app_health.4
-touch -t log/2020060100.00 app_health.3
-touch -t log/2020070100.00 app_health.2
-touch -t log/2020080100.00 app_health.1
-touch -t log/2020090100.00 app_health.5
+if [ -d "./dir" ]; then 	
+   mkdir log
+fi
+
+touch -t 202004010000.00 log/app_health.log.5
+touch -t 202005010000.00 log/app_health.log.4
+touch -t 202006010000.00 log/app_health.log.3
+touch -t 202007010000.00 log/app_health.log.2
+touch -t 202008010000.00 log/app_health.log.1
+touch -t 202009010000.00 log/app_health.log
 
