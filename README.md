@@ -90,10 +90,10 @@ foo@bar:~/neotech-test$ ./CreateBackup.sh
 ```console
 foo@bar:~/neotech-test$ ls -l backups/
 total 51216
--rw-rw-r-- 1 mrofx mrofx 20971520 Jul  1 00:00 appdata.tar.gz.3
--rw-rw-r-- 1 mrofx mrofx 20971520 Aug  1 00:00 appdata.tar.gz.4
--rw-rw-r-- 1 mrofx mrofx 20971520 Sep  1 00:00 appdata.tar.gz.5
--rw-rw-r-- 1 mrofx mrofx 52437078 Sep  6 00:46 appdata.tar.gz.6
+-rw-rw-r-- 1 foo foo 20971520 Jul  1 00:00 appdata.tar.gz.3
+-rw-rw-r-- 1 foo foo 20971520 Aug  1 00:00 appdata.tar.gz.4
+-rw-rw-r-- 1 foo foo 20971520 Sep  1 00:00 appdata.tar.gz.5
+-rw-rw-r-- 1 foo foo 52437078 Sep  6 00:46 appdata.tar.gz.6
 ```
 Предполагается что этот скрипт будет использоваться как cron job.
 
