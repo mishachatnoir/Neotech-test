@@ -30,7 +30,7 @@
 Пример использования:  
 
 ```console
-foo@bar:Neotech-test$ ./CountLines.sh 
+foo@bar:~/Neotech-test$ ./CountLines.sh 
 Enter abosulte path to the text file
 txt/alice29.txt
 This file contains 3608 lines of text
