@@ -55,10 +55,35 @@ This file contains 3608 lines of text
 # Задание 3  
 Произвольный скрипт, который упрощает ежедневную работу с терминалом или любая другая автоматизация   
 **CreateBackup.sh**
-Скрипт который делает бэкап директории и сохраняет его, присвоив порядковый номер.
-Что бы протестировать это скрипт, выполните следующий шаги: 
-Запустите скипт **CreateBackup.sh**:  
+Скрипт который делает бэкап директории,  сохраняет его присвоив порядковый номер, и удаляет бекапы старше трез месяцев (90 дней).
+Что бы протестировать этот скрипт выполните следующий шаги: 
+
+* Запустите скрипт **CreateBackup.sh**:  
 ```console
-foo@bar:~/Neotech-test$ ./CountLines.sh 
+foo@bar:~/Neotech-test$ ./GenerateAppData.sh 
 ````
+Скрипт создаст файл *appdata* в директории *appdata/*.  
+```console
+foo@bar:~/Neotech-test$ ls -l appdata/
+-rw-rw-r-- 1 foo foo 52428800 Sep  6 00:32 appdata
+````
+Будем считать что это данные для которых нужно сделать бэкап.
+
+Скрип также создаст псевдо бекап файлы в директории *backups/* с разными датами последней модификации:
+
+```console
+foo@bar:~/Neotech-test$ ls -l backups/
+total 0
+-rw-rw-r-- 1 foo foo 20971520 May  1 00:00 appdata.tar.gz.1
+-rw-rw-r-- 1 foo foo 20971520 Jun  1 00:00 appdata.tar.gz.2
+-rw-rw-r-- 1 foo foo 20971520 Jul  1 00:00 appdata.tar.gz.3
+-rw-rw-r-- 1 foo foo 20971520 Aug  1 00:00 appdata.tar.gz.4
+-rw-rw-r-- 1 foo foo 20971520 Sep  1 00:00 appdata.tar.gz.5
+
+````
+
+
+
+
+
 
