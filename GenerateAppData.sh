@@ -4,6 +4,7 @@ backupdir=./backups
 
 if [ ! -d ${appdir} ]; then 	
     mkdir ${appdir}   
+fi
 if [ ! -d ${backupdir} ]; then
     mkdir ${backupdir}
 fi
