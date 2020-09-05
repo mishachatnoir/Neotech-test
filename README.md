@@ -21,7 +21,7 @@
 ### Чтобы протестировать скрипты необходимо склонировать репозиторий:  
 
 ```console
-foo@bar:~$ git clone https://github.com/mishachatnoir/Neotech-test.git
+foo@bar:~$ git clone https://github.com/mishachatnoir/neotech-test.git
 Cloning into 'Neotech-test'...
 remote: Enumerating objects: 111, done.
 remote: Counting objects: 100% (111/111), done.
