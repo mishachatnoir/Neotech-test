@@ -22,7 +22,7 @@
 
 ```console
 foo@bar:~$ git clone https://github.com/mishachatnoir/neotech-test.git
-Cloning into 'Neotech-test'...
+Cloning into 'neotech-test'...
 remote: Enumerating objects: 111, done.
 remote: Counting objects: 100% (111/111), done.
 remote: Compressing objects: 100% (103/103), done.
@@ -42,7 +42,7 @@ Resolving deltas: 100% (35/35), done.
 Пример использования:  
 
 ```console
-foo@bar:~/Neotech-test$ ./CountLines.sh 
+foo@bar:~/neotech-test$ ./CountLines.sh 
 Enter abosulte path to the text file
 txt/alice29.txt
 This file contains 3608 lines of text
@@ -58,11 +58,11 @@ This file contains 3608 lines of text
 
 * Запустите скрипт **CreateBackup.sh**:  
 ```console
-foo@bar:~/Neotech-test$ ./GenerateAppData.sh 
+foo@bar:~/neotech-test$ ./GenerateAppData.sh 
 ````
 Скрипт создаст файл *appdata* в директории *appdata/*.  
 ```console
-foo@bar:~/Neotech-test$ ls -l appdata/
+foo@bar:~/neotech-test$ ls -l appdata/
 -rw-rw-r-- 1 foo foo 52428800 Sep  6 00:32 appdata
 ````
 Будем считать что это данные для которых нужно сделать бэкап.
@@ -70,7 +70,7 @@ foo@bar:~/Neotech-test$ ls -l appdata/
 Скрип также создаст псевдо бекап файлы в директории *backups/* с разными датами последней модификации:
 
 ```console
-foo@bar:~/Neotech-test$ ls -l backups/
+foo@bar:~/neotech-test$ ls -l backups/
 total 0
 -rw-rw-r-- 1 foo foo 20971520 May  1 00:00 appdata.tar.gz.1
 -rw-rw-r-- 1 foo foo 20971520 Jun  1 00:00 appdata.tar.gz.2
@@ -83,12 +83,12 @@ total 0
 * Запустите скрипт **CreateBackup.sh**  
 
 ```console
-foo@bar:~/Neotech-test$ ./CreateBackup.sh
+foo@bar:~/neotech-test$ ./CreateBackup.sh
 ```
 Скрипт удалит бекапы старше 90 дней, и создаст новый, добавив следующий порядковый номер к имени файла:
 
 ```console
-foo@bar:~/Neotech-test$ ls -l backups/
+foo@bar:~/neotech-test$ ls -l backups/
 total 51216
 -rw-rw-r-- 1 mrofx mrofx 20971520 Jul  1 00:00 appdata.tar.gz.3
 -rw-rw-r-- 1 mrofx mrofx 20971520 Aug  1 00:00 appdata.tar.gz.4
