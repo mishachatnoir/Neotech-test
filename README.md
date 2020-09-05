@@ -82,8 +82,11 @@ total 0
 
 ````
 
+* Запустите скрипт **CreateBackup.sh**  
 
-
+```console
+foo@bar:~/Neotech-test$ ls -l ./CreateBackup.sh
+```
 
 
 
