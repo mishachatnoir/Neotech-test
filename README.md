@@ -87,6 +87,18 @@ total 0
 ```console
 foo@bar:~/Neotech-test$ ls -l ./CreateBackup.sh
 ```
+Скрипт удалит бекапы старше 90 дней, и создаст новый, добавив следующий порядковый номер к имени файла:
+
+```console
+foo@bar:~/Neotech-test$ ls -l backups/
+total 51216
+-rw-rw-r-- 1 mrofx mrofx 20971520 Jul  1 00:00 appdata.tar.gz.3
+-rw-rw-r-- 1 mrofx mrofx 20971520 Aug  1 00:00 appdata.tar.gz.4
+-rw-rw-r-- 1 mrofx mrofx 20971520 Sep  1 00:00 appdata.tar.gz.5
+-rw-rw-r-- 1 mrofx mrofx 52437078 Sep  6 00:46 appdata.tar.gz.6
+```
+Предполагается что этот скрипт будет использоваться как cron job.
+
 
 
 
