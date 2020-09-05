@@ -29,7 +29,7 @@
 Чтобы протестировать скрипт склонируйте этот репозиторий
 Пример использования:  
 
-```
+```console
 $ ./CountLines.sh 
 Enter abosulte path to the text file
 txt/alice29.txt
