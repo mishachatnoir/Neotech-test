@@ -83,7 +83,7 @@ total 0
 * Запустите скрипт **CreateBackup.sh**  
 
 ```console
-foo@bar:~/Neotech-test$ ls -l ./CreateBackup.sh
+foo@bar:~/Neotech-test$ ./CreateBackup.sh
 ```
 Скрипт удалит бекапы старше 90 дней, и создаст новый, добавив следующий порядковый номер к имени файла:
 
